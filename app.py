@@ -19,6 +19,30 @@ from sklearn.inspection import permutation_importance
 st.set_page_config(page_title="induautoregress_AI", page_icon="🤖", layout="wide")
 
 st.title("🤖 induautoregress_AI")
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #0b1220, #111c35);
+    color: #ffffff;
+}
+[data-testid="stMetric"] {
+    background: #1c2942;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #334766;
+}
+.stButton > button {
+    background: #6c63ff;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+h1, h2, h3 {
+    color: #8ea7ff;
+}
+</style>
+""", unsafe_allow_html=True)
 st.caption("Automated Machine Learning | Regression Platform")
 
 if "trained_models" not in st.session_state:
