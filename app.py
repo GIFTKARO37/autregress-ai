@@ -16,9 +16,9 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.inspection import permutation_importance
 
-st.set_page_config(page_title="AutoRegress AI", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="induautoregress_AI", page_icon="🤖", layout="wide")
 
-st.title("🤖 AutoRegress AI")
+st.title("🤖 induautoregress_AI")
 st.caption("Automated Machine Learning | Regression Platform")
 
 if "trained_models" not in st.session_state:
