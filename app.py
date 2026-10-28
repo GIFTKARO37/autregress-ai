@@ -43,7 +43,19 @@ h1, h2, h3 {
 }
 </style>
 """, unsafe_allow_html=True)
-st.caption("Automated Machine Learning | Regression Platform")
+st.markdown("""
+<div style="padding:25px;border-radius:18px;
+background:linear-gradient(120deg,#182848,#4b6cb7);
+margin-bottom:20px;">
+<h2 style="color:white;">Welcome to induautoregress_AI 🚀</h2>
+<p style="color:#e5eaff;font-size:17px;">
+Train regression models, compare performance, and generate predictions.
+</p>
+<p style="color:#cbd5ff;">
+Upload Dataset • Train Models • Predict Results
+</p>
+</div>
+""", unsafe_allow_html=True)
 
 if "trained_models" not in st.session_state:
     st.session_state.trained_models = {}
